@@ -1,3 +1,4 @@
+import 'package:tabletoprpg_app/models/moedas.dart';
 import 'package:tabletoprpg_app/models/personagem.dart';
 import 'package:tabletoprpg_app/models/atributos.dart';
 import 'package:tabletoprpg_app/models/habilidades.dart';
@@ -13,6 +14,11 @@ final personagemMock = Personagem(
   pontosDeVida: 42,
   pontosDeMana: 20,
   imagem: "assets/images/personagem.jpg",
+  defesa: 10,
+  inventario: [],
+  equipamento: [],
+  poderes: {},
+  moedas: Moedas(),
 );
 
 final atributosMock = Atributos(
