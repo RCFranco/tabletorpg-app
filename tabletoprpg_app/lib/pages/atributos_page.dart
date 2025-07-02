@@ -5,7 +5,7 @@ import 'package:tabletoprpg_app/widgets/atributo_card.dart';
 class AtributosPage extends StatelessWidget {
   final Atributos atributos;
 
-  const AtributosPage({Key? key, required this.atributos}) : super(key: key);
+  const AtributosPage({super.key, required this.atributos});
 
   @override
   Widget build(BuildContext context) {
